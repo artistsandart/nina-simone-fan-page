@@ -1,0 +1,93 @@
+body {
+    background-image: linear-gradient(to right, rgba(9, 2, 31, 0.226),#100320,rgb(37, 22, 48),rgb(7, 4, 12));
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color:rgb(133, 151, 151);
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    color:rgb(167, 182, 199);
+}
+
+.container {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 8%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(29, 8, 29);
+  }
+  
+  .container:hover .overlay {
+    opacity: .25;
+  }
+  
+  .text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+p {
+    color: rgba(248, 244, 248, 0.89);
+    }
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    border-style: dotted;
+    border-width: medium;
+}
+
+ul li::before {
+    color: black;
+}
+
+li {
+    color: rgba(248, 244, 248, 0.89);
+}
+
+table {
+    color: rgba(248, 244, 248, 0.89);
+    font-size: large;
+}
+
+th{
+    font-weight: thick;
+    color:rgb(133, 151, 151);
+    font-size: xx-large;
+}
+
+a:link{
+    font-size: large;
+    color:rgb(7, 4, 12);
+}
+
+
+a:hover {
+    color:rgba(248, 244, 248, 0.89);
+}
